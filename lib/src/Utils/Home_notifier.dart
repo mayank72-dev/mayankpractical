@@ -10,7 +10,7 @@ class HomeNotifier extends ChangeNotifier {
   Future<List<DataModel>>? dataList;
   Future<List<DataModel>>? item;
 
-  bool ?check = false;
+  bool check = false;
   FocusNode focusNode = FocusNode();
 
   initState() async {
